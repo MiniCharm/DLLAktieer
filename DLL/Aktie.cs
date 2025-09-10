@@ -50,7 +50,7 @@
         /// <returns> returnere diferancen mellem købspris og salgs pris</returns>
         public int Afkast() 
         {
-            return (KøbsPris - SalgsKurs) * Antal;
+            return (SalgsKurs- KøbsPris) * Antal;
         }
     }
 }
