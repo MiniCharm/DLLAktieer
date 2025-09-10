@@ -3,7 +3,7 @@
 namespace TestAktie
 {
     [TestClass]
-    public sealed class Test1
+    public sealed class TestAktie
     {
         [DataTestMethod]
         [DataRow("x",1,100,300,100)]
@@ -42,5 +42,6 @@ namespace TestAktie
             //assert
             Assert.AreEqual(afkast, res);
         }
+
     }
 }
